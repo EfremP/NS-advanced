@@ -68,7 +68,7 @@ body {
 }
 
 .check-box {
-    background: darkgoldenrod;
+    background: #ffc917;
     height: 300px;
     width: 100%;
     display: flex;
@@ -158,7 +158,7 @@ body {
     width: 7rem;
     height: 3rem;
     border: 1px solid blue;
-    margin-left: 10rem;
+    margin-left: 12rem;
     border-radius: 5px;
     text-align: center;
     justify-content: space-around;
@@ -168,61 +168,77 @@ body {
 }
 
 .warning-information {
-    background: darkgoldenrod;
+    background: #ffc917;
     display: flex;
-    height: 300px;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid red;
+
+}
+
+.warning-info {
+    background: #ffc917;
+    display: flex;
+    height: 300px;
 }
 
 .warning-image {
-    border: 1px white solid;
-    display: flex;
-    flex-grow: 1;
+
+    margin-left: 15rem;
     height: 3rem;
     width: 3rem;
 }
 
 .warning-text {
-    border: 1px white solid;
+
     display: flex;
-    flex-grow: 1;
+    padding-left: 3rem;
     text-decoration: none;
     font-size: 20px;
 }
+.warning-horizontal-line {
+    border-bottom: 2px solid var(--black);
+}
+
 
 
 .big-image {
-    background: url(https://www.ns.nl/binaries/_ht_1554286087371/large/content/gallery/ns-nl/thema-hero-afbeeldingen/evenementen/koningsdag.jpg);
+    background: url(https://www.ns.nl/binaries/_ht_1538727877527/large/content/gallery/ns-en/carousel-hero-images/amsterdam-canal.jpg);
     background: cover;
-    height: 400px;
+    align-self: center;
+    height: 480px;
+
+}
+
+.big-image {
+
     width: 80%;
     padding-left: 16rem;
     display: flex;
-    justify-content: center;
     margin-top: -5rem;
+    align-self: center;
 }
 
 .big-image-titel {
     color: white;
     font-size: 50px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .big-image-text {
     color: white;
     text-decoration-style: none;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .big-image-titel:hover {
     cursor: pointer;
+
 }
 
 .big-image-read-more {
-    background-color: darkgoldenrod;
+    background-color: #ffc917;
     height: 22px;
-    width: 50px;
+    width: 90px;
 }
 
 .two-checks {
@@ -257,8 +273,8 @@ body {
 .three-boxes {
     display: flex;
     margin: 2em;
-    height: 500px;
-    width: 1000px;
+    height: 600px;
+    width: 1200px;
     align-self: center;
     padding-bottom: 5rem;
     padding-top: 2rem;
@@ -275,6 +291,11 @@ body {
     text-decoration: none;
 }
 
+.three-boxes-ov-image {
+    height: 3rem;
+    width: 3rem;
+}
+
 .popular-list {
     list-style: none;
 }
@@ -282,106 +303,147 @@ body {
 .popular-list:hover {
     cursor: pointer;
 }
-
+.tickets-list {
+    list-style: none;
+}
+.horizontal-three-boxes-line{
+    border-top: 2px solid balck;
+}
+.tickets-list:hover {
+    cursor: pointer;
+}
+.customer-list{
+    list-style: none;
+}
+.customer-list:hover {
+    cursor: pointer;
+}
 .under-popular {
     border: 1px solid #5544;
     flex: 1;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     box-shadow: 1px 2px 7px black;
+}
+.tickets{
+    dislay:flex;
+}
+
+.most-popular {
+    display: flex;
+}
+
+.three-boxes-ov-people {
+    height: 3rem;
+    width: 3rem;
+}
+
+
+.customer-service{
+    display:flex;
 }
 
 .under-customer-service {
-    border: 1px solid #5544;
     flex: 1;
     padding-left: 2rem;
     padding-top: 2rem;
     justify-content: space-around;
     box-shadow: 1px 2px 7px black;
-}
+    }
 
-.sugestion {
-    font-size: 40px;
-    padding-left: 16rem;
-    color: darkblue;
-}
+.three-boxes-ov-customer {
+        height: 4rem;
+        width: 4rem;
+  
+    }
 
-.two-boxes {
-    background: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    align-self: center;
-    padding-bottom: 1rrem;
-    height: 500px;
-    border: 2px solid red;
-}
+.suggestion {
+        font-size: 40px;
+        padding-left: 10rem;
+        color: darkblue;
+    }
+
+.suggestion-two-boxes {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 1rem;
+        height: 500px;
+        border: 2px solid blue;
+    }
 
 .suggestion-first-box {
-    background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg);
-    width: 860px;
-    height: 480px;
-    padding-left: 16rem;
-}
+        background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg);
+        width: 860px;
+        height: 500px;
+        padding-left: 16rem;
+    }
 
 .suggestion-second-box {
-    display: flex;
-    background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)no-repeat;
-    background: cover;
-    width: 372px;
-    height: 160px;
-    padding-left: 60rem;
-}
-
-
-.discover-holland{
-    height: 500px;
-    width:1200px;
-    background:#e6e6e9;
-    border: 2px solid balck;
-}
-
-.bottom {
-    display: flex;
-    height: 500px;
-    flex: 1;
-    width: 1120px;
-    background: grey;
-    justify-content: space-around;
-    border: 2px solid red;
-  
-
-}
-.bottom-list{
-    list-style: none;
+        display: flex;
+        border: 2px solid black;
     
-}
-.bottom-social-icon{
-    height:1.5rem;
-    width:1.5rem;
-}
-
-
-.footer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    background: white;
-
-
+        
+    }
+.suggestion-background-image{
+    background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)no-repeat;
+        background: cover;
+        width: 372px;
+        height: 160px;
 }
 
-.footer-text {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+    .discover-holland {
+        height: 500px;
+        width: 1200px;
+        background: #e6e6e9;
+       
+    }
 
-}
+    .bottom {
+        display: flex;
+        height: 500px;
+        flex: 1;
+        width: 1120px;
+        background: grey;
+        justify-content: space-around;
+        border: 2px solid red;
 
-.bottom-logo {
-    padding-right: 4rem;
-    padding-bottom: 1rem;
-    flex: 1;
-}
+
+    }
+
+    .bottom-list {
+        list-style: none;
+
+    }
+
+    .bottom-social-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background: white;
+
+
+    }
+
+    .footer-text {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+    }
+
+    .bottom-logo {
+        padding-right: 4rem;
+        padding-bottom: 1rem;
+        flex: 1;
+    }
