@@ -367,16 +367,14 @@ body {
     }
 
 .suggestion-two-boxes {
-        background: white;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding-bottom: 1rem;
-        height: 500px;
-        border: 2px solid blue;
+    display: flex;
+    height:500px;
+    
+        
     }
 
 .suggestion-first-box {
+        display:flex;
         background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg);
         width: 860px;
         height: 500px;
@@ -384,8 +382,8 @@ body {
     }
 
 .suggestion-second-box {
-        display: flex;
-        border: 2px solid black;
+    display:flex;
+       
     
         
     }
@@ -397,6 +395,8 @@ body {
 }
 
     .discover-holland {
+        display:flex;
+        flex-direction: rows;
         height: 500px;
         width: 1200px;
         background: #e6e6e9;
@@ -406,7 +406,7 @@ body {
     .bottom {
         display: flex;
         height: 500px;
-        flex: 1;
+       
         width: 1120px;
         background: grey;
         justify-content: space-around;
@@ -431,6 +431,7 @@ body {
         justify-content: space-around;
         flex-direction: row;
         background: white;
+        
 
 
     }
